@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.main-bg-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow-y: auto;
+}
+
+.main-heading {
+  font-family: 'Bree Serif';
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+}
+
+.input-area {
+  border-width: 0px;
+  height: 35px;
+  width: 250px;
+  outline: none;
+  background-color: transparent;
+  font-size: 15px;
+  color: black;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 3px;
+}
+
+.tab-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.app-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 85%;
+}
+
+@media all and (max-width: 992px) {
+  .app-list-container {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    padding: 10px;
+  }
+}

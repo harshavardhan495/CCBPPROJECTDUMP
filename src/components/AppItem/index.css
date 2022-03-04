@@ -1,0 +1,51 @@
+/* Write your CSS here */
+
+.app-icon-props {
+  height: 55px;
+  width: 55px;
+}
+
+.app-card-item {
+  height: 130px;
+  width: 180px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.app-name {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+
+@media all and (max-width: 992px) {
+  .app-icon-props {
+    height: 40px;
+    width: 40px;
+  }
+
+  .app-card-item {
+    height: 100px;
+    width: 130px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+  }
+
+  .app-name {
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Bree Serif';
+  }
+}
